@@ -92,7 +92,42 @@ a {
     color: #f9faf8;
 }
 
+.secondary-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
+.secondary-title{
+    text-align: center;
+}
 
+.plants {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
 
+.plant {
+    display: inline;
+    width:200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.plants img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.tertiary-content{
+    background-color: #e5e7eb;
+}
 
