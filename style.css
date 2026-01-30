@@ -148,5 +148,57 @@ a {
 
 .tertiary-bottom {
     padding-bottom: 80px;
+    text-align: end;
+    width: 50%;
+    font-weight: 600;
 }
 
+.tertiary-bottom p, .tertiary-top p{
+    margin: 0;
+}
+
+ .call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #f9faf8;
+    padding: 50px;
+} 
+
+.cta-container {
+    display: flex;
+    background-color: #3882f6;
+    width: 1200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cta-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.cta-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.cta-one p, .cta-one h2{
+    margin: 0;
+}
+
+.cta-two button{
+    padding: 10px;
+    width: 130px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #f9faf8;
+}
