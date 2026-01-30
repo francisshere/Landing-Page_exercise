@@ -202,3 +202,13 @@ a {
     font-weight: bold;
     color: #f9faf8;
 }
+
+.footer {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f9faf8;
+    font-size: 14px;
+    text-align: center;
+}
